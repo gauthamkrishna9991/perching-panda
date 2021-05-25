@@ -8,7 +8,7 @@ OUT = perching-panda
 
 SOURCES = main.c
 
-perching-panda: Makefile $(SOURCES)
+$(OUT): Makefile $(SOURCES)
 	$(CC) -o $@ $(WARNINGS) $(DEBUG) $(OPTIMIZE) $(SOURCES)
 
 clean:
@@ -21,3 +21,4 @@ install:
 # Builder uses this target to run your application.
 run: $(OUT)
 	./$(OUT)
+
