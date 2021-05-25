@@ -1,0 +1,16 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
+    "C_Cpp.errorSquiggles": "Disabled",
+    "C_Cpp.default.includePath": [
+        "/usr/lib/include",
+        "/usr/lib64/include"
+    ],
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/goutham/Projects/perching-panda",
+            "binaryPath": "/home/goutham/Projects/perching-panda/perching-panda",
+            "binaryArgs": []
+        }
+    ]
+}
